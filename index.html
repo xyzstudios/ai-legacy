@@ -53,12 +53,16 @@
 		  animation: arrow-animation 1s infinite;
 		}
 		
-		}
-
 		@keyframes arrow-animation {
-			0% { transform: translateY(0); }
-			50% { transform: translateY(10px); }
-			100% { transform: translateY(0); }
+	  0% {
+ 	   transform: rotate(45deg) translate(0px, 4px);
+  	}
+ 	 50% {
+ 	   transform: rotate(45deg) translate(0px, 10px);
+ 	 }
+	  100% {
+  	  transform: rotate(45deg) translate(0px, 4px);
+	  }
 		}
 	</style>
 </head>
