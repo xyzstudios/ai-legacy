@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-sPzJxRWshoNCUSP2+rqGBA+d1L6//j0XW/Yu6D+Uq3JUH7zTiknPuGV7QYWsJ6uH7VUjy6uE7VU+3qsg3TzT3A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<title>XYZ.AI</title>
 	<style>
 		body {
@@ -26,9 +27,72 @@
 			opacity: 50%;
 			transition: opacity 1s ease-in-out;
 			margin-top: 100vh;
+			.gray-box {
+  background-color: #eee;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.gray-box h2 {
+  margin-top: 0;
+  color: #333;
+  font-size: 2em;
+}
+
+.gray-box ul {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.gray-box ul li:before {
+  content: "• ";
+  color: #666;
+}
+
+.purple-button {
+  display: inline-block;
+  background-color: #8200ff;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.purple-button:hover {
+  background-color: #6a00cc;
+  transform: translateY(-2px);
+}
+
+.purple-button i {
+  margin-right: 10px;
+}
+
+.purple-button i.fa-discord {
+  font-size: 1.5em;
+  vertical-align: middle;
+}
+
 		}
 		
 	</style>
+	<div class="gray-box">
+  <h2>Basic</h2>
+  <ul>
+    <li>Coming soon</li>
+    <li>Unstable</li>
+    <li>Minimal support</li>
+  </ul>
+  <a href="https://www.google.com" class="purple-button">
+    <i class="fab fa-discord"></i> Join
+  </a>
+</div>
 </head>
 <body>
 	<h1>...imagine a bot, that can do everything</h1>
