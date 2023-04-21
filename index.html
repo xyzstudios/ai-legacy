@@ -88,6 +88,16 @@
 			var scrollDown = document.getElementById('scroll-down');
 			scrollDown.classList.add('hide');
 		}, 10000);
+		
+		/* hide arrow after scrolling */
+		window.addEventListener('scroll', function() {
+			if (window.scrollY > 0) {
+				arrow.classList.add('hide-arrow');
+			}
+			if (window.scrollY > meetText.offsetTop - window.innerHeight / 2) {
+				meetText.classList.add('show-text');
+			}
+		});
 	</script>
 	<h1 class=meet-text>meet xyz.ai</h1>
 	<br>
