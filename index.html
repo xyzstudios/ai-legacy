@@ -18,9 +18,61 @@
 			-webkit-text-fill-color: transparent;
 			font-family: Arial, sans-serif;
 		}
+		
+				#scroll-down {
+			position: fixed;
+			bottom: 20px;
+			left: 50%;
+			transform: translateX(-50%);
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			opacity: 1;
+			transition: opacity 2s ease-in-out;
+			color: #444444;
+		}
+
+		#scroll-down.hide {
+			opacity: 0;
+			transition: opacity 2s ease-in-out;
+		}
+
+		#scroll-down span {
+			font-size: 18px;
+			font-weight: bold;
+			text-align: center;
+			margin-bottom: 10px;
+		}
+
+		#scroll-down .arrow {
+			width: 40px;
+			height: 40px;
+			border: solid #444444;
+			border-width: 0 3px 3px 0;
+			transform: rotate(45deg);
+			animation: arrow-animation 1s infinite;
+		}
+
+		@keyframes arrow-animation {
+			0% { transform: translateY(0); }
+			50% { transform: translateY(10px); }
+			100% { transform: translateY(0); }
+		}
 	</style>
 </head>
 <body>
 	<h1 class=imagine-text>...imagine a bot, that can do everything</h1>
+		<div id="scroll-down">
+		<span>Scroll down</span>
+		<div class="arrow"></div>
+		<div class="arrow"></div>
+	</div>
+	<script>
+		// Hide the scroll down animation after 10 seconds
+		setTimeout(function() {
+			var scrollDown = document.getElementById('scroll-down');
+			scrollDown.classList.add('hide');
+		}, 10000);
+	</script>
 </body>
 </html>
