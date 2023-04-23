@@ -1,1 +1,421 @@
+xyzstudios
 
+/
+
+ai
+
+Public
+
+Code
+
+Issues
+
+Pull requests
+
+Actions
+
+Projects
+
+Wiki
+
+Security
+
+Insights
+
+Settings
+
+get the styles into another file ;D
+
+ main
+
+@Tomekjestfajny1
+
+Tomekjestfajny1 committed 15 hours ago
+
+1 parent 3478661
+
+commit 0c8df18
+
+Showing 1 changed file with 1 addition and 90 deletions.
+
+  91  
+
+index.html
+
+@@ -2,97 +2,8 @@
+
+<html>
+
+  <head>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-sPzJxRWshoNCUSP2+rqGBA+d1L6//j0XW/Yu6D+Uq3JUH7zTiknPuGV7QYWsJ6uH7VUjy6uE7VU+3qsg3TzT3A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="/data/main/css/intro.css"/>
+
+    <title>xyz.ai</title>
+
+    <style>
+
+      body {
+
+        background-color: #121212;
+
+        color: #ffffff;
+
+        font-family: Arial, sans-serif;
+
+        text-align: center;
+
+      }
+
+      .gradient {
+
+        background-image: linear-gradient(to right, #e4429f, #3430ff);
+
+        -webkit-background-clip: text;
+
+        -webkit-text-fill-color: transparent;
+
+      }
+
+      .meet-text {
+
+        font-size: 4em;
+
+        background-image: linear-gradient(to right, #e4429f, #3430ff);
+
+        -webkit-background-clip: text;
+
+        -webkit-text-fill-color: transparent;
+
+        font-family: Arial, sans-serif;
+
+        opacity: 100;
+
+        transition: opacity 1s ease-in-out;
+
+        margin-top: 40vh;
+
+      }
+
+      .last-line {
+
+        font-size: 1em;
+
+        font-family: Arial, sans-serif;
+
+        opacity: 50%;
+
+        transition: opacity 1s ease-in-out;
+
+        margin-top: 100vh;
+
+        .gray-box {
+
+          background-color: #eee;
+
+          border-radius: 10px;
+
+          box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+
+          padding: 20px;
+
+          margin: 20px;
+
+          text-align: center;
+
+        }
+
+        .gray-box h2 {
+
+          margin-top: 0;
+
+          color: #333;
+
+          font-size: 2em;
+
+        }
+
+        .gray-box ul {
+
+          list-style: none;
+
+          margin: 50px 50px;
+
+          padding: 0;
+
+        }
+
+        .gray-box ul li:before {
+
+          content: "• ";
+
+          color: #666;
+
+        }
+
+        .imagine {
+
+          margin-top: 20px;
+
+        }
+
+        .purple-button {
+
+          display: inline-block;
+
+          background-color: #8200ff;
+
+          color: #fff;
+
+          text-decoration: none;
+
+          font-size: 1.5em;
+
+          padding: 10px 20px;
+
+          border-radius: 5px;
+
+          box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+
+          transition: all 0.3s ease;
+
+        }
+
+        .purple-button:hover {
+
+          background-color: #ffffff;
+
+          transform: translateY(+10px);
+
+        }
+
+        .purple-button i {
+
+          margin-right: 10px;
+
+          background-color: #ffffff;
+
+        }
+
+        .purple-button i.fa-discord {
+
+          font-size: 1.5em;
+
+          vertical-align: middle;
+
+        }
+
+      }
+
+    </style>
+
+xyzstudios
+
+/
+
+ai
+
+Public
+
+Code
+
+Issues
+
+Pull requests
+
+Actions
+
+Projects
+
+Wiki
+
+Security
+
+Insights
+
+Settings
+
+get the styles into another file ;D
+
+ main
+
+@Tomekjestfajny1
+
+Tomekjestfajny1 committed 15 hours ago
+
+1 parent 3478661
+
+commit 0c8df18
+
+Showing 1 changed file with 1 addition and 90 deletions.
+
+  91  
+
+index.html
+
+@@ -2,97 +2,8 @@
+
+<html>
+
+  <head>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-sPzJxRWshoNCUSP2+rqGBA+d1L6//j0XW/Yu6D+Uq3JUH7zTiknPuGV7QYWsJ6uH7VUjy6uE7VU+3qsg3TzT3A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="/data/main/css/intro.css"/>
+
+
+
+      body {
+
+        background-color: #121212;
+
+        color: #ffffff;
+
+        font-family: Arial, sans-serif;
+
+        text-align: center;
+
+      }
+
+      .gradient {
+
+        background-image: linear-gradient(to right, #e4429f, #3430ff);
+
+        -webkit-background-clip: text;
+
+        -webkit-text-fill-color: transparent;
+
+      }
+
+      .meet-text {
+
+        font-size: 4em;
+
+        background-image: linear-gradient(to right, #e4429f, #3430ff);
+
+        -webkit-background-clip: text;
+
+        -webkit-text-fill-color: transparent;
+
+        font-family: Arial, sans-serif;
+
+        opacity: 100;
+
+        transition: opacity 1s ease-in-out;
+
+        margin-top: 40vh;
+
+      }
+
+      .last-line {
+
+        font-size: 1em;
+
+        font-family: Arial, sans-serif;
+
+        opacity: 50%;
+
+        transition: opacity 1s ease-in-out;
+
+        margin-top: 100vh;
+
+        .gray-box {
+
+          background-color: #eee;
+
+          border-radius: 10px;
+
+          box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+
+          padding: 20px;
+
+          margin: 20px;
+
+          text-align: center;
+
+        }
+
+        .gray-box h2 {
+
+          margin-top: 0;
+
+          color: #333;
+
+          font-size: 2em;
+
+        }
+
+        .gray-box ul {
+
+          list-style: none;
+
+          margin: 50px 50px;
+
+          padding: 0;
+
+        }
+
+        .gray-box ul li:before {
+
+          content: "• ";
+
+          color: #666;
+
+        }
+
+        .imagine {
+
+          margin-top: 20px;
+
+        }
+
+        .purple-button {
+
+          display: inline-block;
+
+          background-color: #8200ff;
+
+          color: #fff;
+
+          text-decoration: none;
+
+          font-size: 1.5em;
+
+          padding: 10px 20px;
+
+          border-radius: 5px;
+
+          box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+
+          transition: all 0.3s ease;
+
+        }
+
+        .purple-button:hover {
+
+          background-color: #ffffff;
+
+          transform: translateY(+10px);
+
+        }
+
+        .purple-button i {
+
+          margin-right: 10px;
+
+          background-color: #ffffff;
+
+        }
+
+        .purple-button i.fa-discord {
+
+          font-size: 1.5em;
+
+          vertical-align: middle;
+
+        }
+
+      }
+
+    </style>
