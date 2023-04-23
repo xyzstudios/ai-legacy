@@ -1,60 +1,37 @@
-xyzstudios
 
-/
 
-ai
 
-Public
 
-Code
 
-Issues
 
-Pull requests
 
-Actions
 
-Projects
 
-Wiki
 
-Security
 
-Insights
 
-Settings
 
-get the styles into another file ;D
 
- main
 
-@Tomekjestfajny1
 
-Tomekjestfajny1 committed 15 hours ago
 
-1 parent 3478661
 
-commit 0c8df18
 
-Showing 1 changed file with 1 addition and 90 deletions.
 
-  91  
 
-index.html
 
-@@ -2,97 +2,8 @@
 
-<html>
 
-  <head>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-sPzJxRWshoNCUSP2+rqGBA+d1L6//j0XW/Yu6D+Uq3JUH7zTiknPuGV7QYWsJ6uH7VUjy6uE7VU+3qsg3TzT3A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="/data/main/css/intro.css"/>
 
-    <title>xyz.ai</title>
+ 
 
-    <style>
+
+
+
+    
+
 
       body {
 
