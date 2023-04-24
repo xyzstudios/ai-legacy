@@ -1,10 +1,5 @@
-# Hello there ;)
+# Introduction
 
-## *https://github.com/xyzstudios/ai*
-## The page contains
-- Intro
-- Docs
-- Plans
-- Login
-- Buy
-- Invite
+{% hint style="info" %}
+Welcome! This page is still in development, so if you find bugs report it&#x20;
+{% endhint %}
