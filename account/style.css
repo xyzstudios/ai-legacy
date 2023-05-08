@@ -10,10 +10,10 @@ html,body{
   height: 100%;
   width: 100%;
   place-items: center;
-  background: -webkit-linear-gradient(left, #a445b2, #fa4299);
+  background: -webkit-linear-gradient(left, #2e2e2e, #000000);
 }
 ::selection{
-  background: #fa4299;
+  background: #2e2e2e;
   color: #fff;
 }
 .wrapper{
@@ -68,7 +68,7 @@ html,body{
   left: 0;
   z-index: 0;
   border-radius: 5px;
-  background: -webkit-linear-gradient(left, #a445b2, #fa4299);
+  background: -webkit-linear-gradient(left, #af47ff, #fa4299);
   transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
 }
 input[type="radio"]{
